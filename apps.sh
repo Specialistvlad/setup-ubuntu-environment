@@ -33,4 +33,7 @@ mkdir -p /opt/z/
 cp z/z.sh /opt/z/
 echo ". /opt/z/z.sh" >> ~/.bashrc
 
+#Replace config
+cp .gitconfig ~/
+
 cd ~
