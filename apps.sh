@@ -1,4 +1,4 @@
-echo "Install chromium, atom, slack, skype. This script requires admin privileges."
+echo "Install chromium, atom, slack, skype, gyazo, z. This script requires admin privileges."
 echo "Press any key to continue..."
 sed -n q </dev/tty # pause
 
@@ -8,8 +8,8 @@ cd ~/tmp
 add-apt-repository ppa:canonical-chromium-builds/stage
 
 apt update
-apt install git make build-essential gcc-6 htop
-apt install chromium-browser
+apt dist-upgrade
+apt install chromium-browser htop git make build-essential gcc-6 postgresql-9.5 redis-server mongodb-server rabbitmq-server
 
 # Latest atom
 wget -O atom-latest.deb https://atom.io/download/deb
@@ -23,7 +23,7 @@ apt install -f ./slack-desktop-latest.deb
 wget -O skype-latest.deb https://get.skype.com/go/getskype-linux-beta-ubuntu-64
 apt install -f ./skype-latest.deb
 
-# Latest screenshoting tool
+# Latest Gyazo screenshoting tool
 curl -s https://packagecloud.io/install/repositories/gyazo/gyazo-for-linux/script.deb.sh | bash
 apt install gyazo
 
