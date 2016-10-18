@@ -9,7 +9,7 @@ add-apt-repository ppa:canonical-chromium-builds/stage
 
 apt update
 apt dist-upgrade
-apt install chromium-browser htop git make build-essential gcc-6 postgresql-9.5 redis-server mongodb-server rabbitmq-server
+apt install chromium-browser vim htop git make build-essential gcc-6 postgresql-9.5 redis-server mongodb-server rabbitmq-server
 
 # Latest atom
 wget -O atom-latest.deb https://atom.io/download/deb
@@ -31,9 +31,9 @@ apt install gyazo
 git clone https://github.com/rupa/z.git
 mkdir -p /opt/z/
 cp z/z.sh /opt/z/
+echo "" >> ~/.bashrc
 echo ". /opt/z/z.sh" >> ~/.bashrc
 
-#Replace config
-cp .gitconfig ~/
+./config.sh
 
 cd ~
