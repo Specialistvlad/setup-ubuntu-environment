@@ -9,7 +9,7 @@ add-apt-repository ppa:canonical-chromium-builds/stage
 
 apt update
 apt dist-upgrade
-apt install chromium-browser vim htop git make build-essential gcc-6 postgresql-9.5 redis-server mongodb-server rabbitmq-server
+apt install chromium-browser vim htop git make build-essential gcc-6 postgresql-9.5 redis-server mongodb-server rabbitmq-server docker.io docker-compose
 
 # Latest atom
 wget -O atom-latest.deb https://atom.io/download/deb

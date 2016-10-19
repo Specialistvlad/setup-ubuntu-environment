@@ -11,6 +11,6 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm install 0.10.25
 nvm install 6
-# npm i gulp -g
+npm i gulp bower webpack jslint -g
 
 cd ~
