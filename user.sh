@@ -11,6 +11,8 @@ export NVM_DIR="$HOME/.nvm"
 
 nvm install 0.10.25
 nvm install 6
-npm i gulp bower webpack jslint -g
+npm i -g nodemon gulp bower
+
+apm i atom-beautify atom-no-tab-close-button autoclose-html color-picker file-icons language-riot-tag monokai one-tab qolor selection-highlight tab-numbers tabs-closer tabs-to-spaces webbox-color
 
 cd ~
