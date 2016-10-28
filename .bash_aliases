@@ -2,12 +2,20 @@ alias ls='ls --color=auto'
 alias ll='ls -la'
 alias l.='ls -d .* --color=auto'
 alias cd..='cd ..'
-alias ..='cd ..'
+alias ..='cd ../../'
 alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
+
+alias d="docker"
+alias dcm="docker-compose"
+alias dps="docker ps --format '{{.ID}}\\t{{.Image}}\\t\\t{{.Status}}'"
+alias dlf="docker logs -f"
+alias dl="docker logs"
+alias drm="docker rm"
+
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
