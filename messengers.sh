@@ -5,8 +5,8 @@ apt install -f ./slack-desktop-latest.deb
 # Latest skype
 
 ## classic
-# wget -O skype-latest-classic.deb https://get.skype.com/go/getskype-linux-beta-ubuntu-64
-# apt install -f ./skype-latest-classic.deb
+wget -O skype-latest-classic.deb https://get.skype.com/go/getskype-linux-beta-ubuntu-64
+apt install -f ./skype-latest-classic.deb
 
 ## next generation
 #https://community.skype.com/t5/Linux/Skype-for-Linux-Alpha-and-calling-on-Chrome-amp-Chromebooks/td-p/4434299
