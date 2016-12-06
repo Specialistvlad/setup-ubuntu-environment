@@ -15,6 +15,6 @@ nvm alias system 7
 npm update -g npm
 npm i -g nodemon gulp bower
 
-apm i atom-beautify atom-no-tab-close-button autoclose-html color-picker file-icons language-riot-tag monokai one-tab qolor selection-highlight tab-numbers tabs-closer tabs-to-spaces webbox-color
+apm i react atom-no-tab-close-button autoclose-html color-picker file-icons monokai one-tab qolor selection-highlight tab-numbers tabs-closer tabs-to-spaces webbox-color
 
 cd ~
